@@ -34,7 +34,7 @@ const Courses = () => {
 
   const fetchCourses = async () => {
     try {
-      const { data } = await axios.get("http://localhost:3000/api/course/all");
+      const { data } = await axios.get(`http://localhost:3000/api/course/all`);
         setCourses(data.courses);
        console.log(courses);
     } catch (error) {
