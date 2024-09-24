@@ -37,7 +37,7 @@ const PopularCreator = () => {
       <h2 className="text-[#7A1DC5] text-3xl font-semibold">
         Meet our Popular Creator
       </h2>
-      <div className="flex gap-4 items-center justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center items-center">
         {creators?.slice(0, 3).map((creator) => (
           <PopularCreatorCard key={creator._id} creator={creator} />
         ))}
