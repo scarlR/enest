@@ -1,15 +1,21 @@
-import { Button } from './components/ui/button'
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LayOut from "./components/LayOut";
+import Home from "./components/Home";
 
 function App() {
 
 
   return (
-    <>
-      <div>
-        <Button>Click me</Button>
-      </div>
-      
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LayOut />}>
+          <Route index element={<Home />} />
+
+          
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
