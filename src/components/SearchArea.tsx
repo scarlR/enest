@@ -22,9 +22,11 @@ const SearchArea = () => {
             />
           </div>
           {toggleDropown && (
-            <NestedDropdown
-              toggleDropown={toggleDropown}
-              setToggleDropown={setToggleDropown}
+                      <NestedDropdown
+                         
+                
+                  
+              
             />
           )}
         </li>
