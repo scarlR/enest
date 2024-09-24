@@ -4,6 +4,13 @@ import CoursesCard from './CoursesCard'
 const Courses = () => {
     return (
       <div className="flex flex-col flex-1 justify-center items-center gap-10 ">
+        <div>
+          <button>Agriculture</button>
+          <button>Food Engineering</button>
+          <button>Dairy Science</button>
+          <button>Personal Development</button>
+
+        </div>
         <div className="flex gap-4 justify-center ">
           <CoursesCard />
           <CoursesCard />

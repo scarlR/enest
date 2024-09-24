@@ -1,16 +1,16 @@
-import dropdown from "../assets/dropdown.svg";
+import dropdownwhite from "../assets/dropdown.svg";
 import searchlogo from "../assets/searchlogo.svg";
 import cart from "../assets/cart.svg";
 
 const SearchArea = () => {
   return (
-    <div className=" bg-primary h-20 flex justify-between items-center px-24 text-white">
+    <div className=" bg-primary h-20 flex justify-between items-center px-6 sm:px-8 md:px-16 lg:px-24 text-white">
       {/* left */}
 
       <ul className="flex gap-8">
         <li className="flex justify-center items-center gap-2">
           <span>Explore</span>
-          <img src={dropdown} alt="dropdown" />
+          <img src={dropdownwhite} alt="dropdown" />
         </li>
         <li>
           <div className="relative max-w-2xl mx-auto">
